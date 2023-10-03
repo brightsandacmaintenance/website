@@ -72,7 +72,7 @@ function Home() {
                   <p>
                   Welcome to Bright Sand Air Conditioners Maintenance Est, your trusted destination for top-notch AC repair and maintenance services. With a passion for cool comfort, we are your dedicated partners in keeping your air conditioning systems running flawlessly year-round. Our expert technicians are committed to delivering prompt, reliable, and affordable solutions to ensure your home or business stays cool and comfortable. From routine maintenance to emergency repairs, we've got you covered. Experience unparalleled expertise, exceptional service, and a breath of fresh air – choose Bright Sand Air Conditioners Maintenance for all your AC repair and maintenance needs.
                   </p>
-                  <a href="">
+                  <a href="tel:+971553720602">
                     Contact Us
                   </a>
                 </div>
