@@ -9,14 +9,14 @@ function Home() {
           <div class="header_top">
             <div class="container-fluid">
               <div class="contact_nav">
-                <a href="tel:0553720602">
+                <a href="tel:+971553720602">
                   <i class="fa fa-phone" aria-hidden="true"></i>
                   <span>
-                    +055 3720602
+                    +971 553720602
                   </span>
                 </a>
                 <br/>
-                <a href="mail:brightsand2014@gmail.com">
+                <a href="mailto:brightsand2014@gmail.com">
                   <i class="fa fa-envelope" aria-hidden="true"></i>
                   <span>
                     brightsand2014@gmail.com
@@ -30,7 +30,7 @@ function Home() {
               <nav class="navbar navbar-expand-lg custom_nav-container ">
                 <a class="navbar-brand" href="index.html">
                   <span>
-                    Bight Sand
+                    Bright Sand
                   </span>
                 </a>
 
@@ -70,7 +70,7 @@ function Home() {
                     Repair and Maintenance 
                   </h1>
                   <p>
-                  Welcome to Bight Sand Air Conditioners Maintenance Est, your trusted destination for top-notch AC repair and maintenance services. With a passion for cool comfort, we are your dedicated partners in keeping your air conditioning systems running flawlessly year-round. Our expert technicians are committed to delivering prompt, reliable, and affordable solutions to ensure your home or business stays cool and comfortable. From routine maintenance to emergency repairs, we've got you covered. Experience unparalleled expertise, exceptional service, and a breath of fresh air – choose Bight Sand Air Conditioners Maintenance for all your AC repair and maintenance needs.
+                  Welcome to Bright Sand Air Conditioners Maintenance Est, your trusted destination for top-notch AC repair and maintenance services. With a passion for cool comfort, we are your dedicated partners in keeping your air conditioning systems running flawlessly year-round. Our expert technicians are committed to delivering prompt, reliable, and affordable solutions to ensure your home or business stays cool and comfortable. From routine maintenance to emergency repairs, we've got you covered. Experience unparalleled expertise, exceptional service, and a breath of fresh air – choose Bright Sand Air Conditioners Maintenance for all your AC repair and maintenance needs.
                   </p>
                   <a href="">
                     Contact Us
@@ -129,7 +129,7 @@ function Home() {
                   <path d="M46,31H42.422a1,1,0,0,1,0-2H46a1,1,0,0,0,.916-1.4A5.992,5.992,0,0,0,36.231,27h-8.04a5.992,5.992,0,0,0-10.685.6,1,1,0,0,0,.916,1.4H22a1,1,0,0,1,0,2H18.422a1,1,0,0,0-.916,1.4,5.992,5.992,0,0,0,10.685.6h8.04a5.992,5.992,0,0,0,10.685-.6A1,1,0,0,0,46,31Zm-4.578,3a4,4,0,0,1-3.662-2.4,1,1,0,0,0-.916-.6H27.578a1,1,0,0,0-.916.6,3.991,3.991,0,0,1-6.3,1.4H22a3,3,0,0,0,0-6H20.359a3.991,3.991,0,0,1,6.3,1.4,1,1,0,0,0,.916.6h9.266a1,1,0,0,0,.916-.6,3.991,3.991,0,0,1,6.3-1.4h-1.64a3,3,0,0,0,0,6h1.64A3.988,3.988,0,0,1,41.422,34Z" /></svg>
               </div>
               <h5 class="name">
-                Maintain
+                Maintainenance
               </h5>
             </div>
           </div>
@@ -150,7 +150,7 @@ function Home() {
                   About us
                 </h2>
                 <p>
-                At Bight Sand Air Conditioners Maintenance Est, we take pride in offering a comprehensive range of AC maintenance services that cater to all your cooling needs. Whether it's routine maintenance, repairs, or specialized services like VFD control panel unit maintenance, our team of highly skilled technicians has the expertise and experience to keep your air conditioning systems running at peak performance.
+                At Bright Sand Air Conditioners Maintenance Est, we take pride in offering a comprehensive range of AC maintenance services that cater to all your cooling needs. Whether it's routine maintenance, repairs, or specialized services like VFD control panel unit maintenance, our team of highly skilled technicians has the expertise and experience to keep your air conditioning systems running at peak performance.
                 </p>
                 {/* <a href="">
                   Read More
@@ -336,19 +336,19 @@ function Home() {
                     </a>
                   </div>
                   <div class="col-md-4">
-                    <a href="">
+                  <a href="tel:+971553720602">
                       <div class="item ">
                         <div class="img-box ">
                           <i class="fa fa-phone" aria-hidden="true"></i>
                         </div>
                         <p>
-                        +055 3720602
+                        +971 553720602
                         </p>
                       </div>
                     </a>
                   </div>
                   <div class="col-md-4">
-                    <a href="">
+                  <a href="mailto:brightsand2014@gmail.com">
                       <div class="item ">
                         <div class="img-box">
                           <i class="fa fa-envelope" aria-hidden="true"></i>
