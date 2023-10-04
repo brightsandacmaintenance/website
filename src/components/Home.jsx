@@ -7,17 +7,36 @@ function Home() {
         {/* header section strats */}
         <header class="header_section">
           <div class="header_top">
-            <div class="container-fluid">
+            <div class="container-fluid d-block d-sm-none">
               <div class="contact_nav">
                 <a href="tel:+971553720602">
-                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <i class="fa fa-phone p-2" aria-hidden="true"></i>
                   <span>
                     +971 553720602
                   </span>
                 </a>
-                <br/>
+              </div>
+              <div class="contact_nav">
                 <a href="mailto:brightsand2014@gmail.com">
-                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                  <i class="fa fa-envelope p-2" aria-hidden="true"></i>
+                  <span>
+                    brightsand2014@gmail.com
+                  </span>
+                </a>
+              </div>
+            </div>
+            {/* All devices other than xs */}
+            <div class="container-fluid d-none d-sm-block">
+              <div class="contact_nav">
+                <a href="tel:+971553720602">
+                  <i class="fa fa-phone p-2" aria-hidden="true"></i>
+                  <span>
+                    +971 553720602
+                  </span>
+                </a>
+                <br />
+                <a href="mailto:brightsand2014@gmail.com">
+                  <i class="fa fa-envelope p-2" aria-hidden="true"></i>
                   <span>
                     brightsand2014@gmail.com
                   </span>
@@ -66,11 +85,11 @@ function Home() {
               <div class="col-md-6 ">
                 <div class="detail-box">
                   <h1>
-                    Air Conditioner <br/>
-                    Repair and Maintenance 
+                    Air Conditioner <br />
+                    Repair and Maintenance
                   </h1>
-                  <p>
-                  Welcome to Bright Sand Air Conditioners Maintenance Est, your trusted destination for top-notch AC repair and maintenance services. With a passion for cool comfort, we are your dedicated partners in keeping your air conditioning systems running flawlessly year-round. Our expert technicians are committed to delivering prompt, reliable, and affordable solutions to ensure your home or business stays cool and comfortable. From routine maintenance to emergency repairs, we've got you covered. Experience unparalleled expertise, exceptional service, and a breath of fresh air – choose Bright Sand Air Conditioners Maintenance for all your AC repair and maintenance needs.
+                  <p className='text-justify'>
+                    Welcome to Bright Sand Air Conditioners Maintenance Est, your trusted destination for top-notch AC repair and maintenance services. With a passion for cool comfort, we are your dedicated partners in keeping your air conditioning systems running flawlessly year-round. Our expert technicians are committed to delivering prompt, reliable, and affordable solutions to ensure your home or business stays cool and comfortable. From routine maintenance to emergency repairs, we've got you covered. Experience unparalleled expertise, exceptional service, and a breath of fresh air – choose Bright Sand Air Conditioners Maintenance for all your AC repair and maintenance needs.
                   </p>
                   <a href="tel:+971553720602">
                     Contact Us
@@ -109,7 +128,7 @@ function Home() {
                 Repair
               </h5>
             </div>
-            <div class="box active">
+            <div class="box">
               <div class="img-box">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="512" height="512">
                   <g id="paint-painted-paint_roller-home-house" data-name="paint-painted-paint roller-home-house">
@@ -149,8 +168,24 @@ function Home() {
                 <h2>
                   About us
                 </h2>
-                <p>
-                At Bright Sand Air Conditioners Maintenance Est, we take pride in offering a comprehensive range of AC maintenance services that cater to all your cooling needs. Whether it's routine maintenance, repairs, or specialized services like VFD control panel unit maintenance, our team of highly skilled technicians has the expertise and experience to keep your air conditioning systems running at peak performance.
+                <p className='text-justify'>
+                  Professional AC Installation and repair from our certified technicians.
+                </p>
+                <p className='text-justify'>
+                  Our services
+                </p>
+                <ol className='text-left font-weight-bold'>
+                  <li>Central AC</li>
+                  <li>Window AC </li>
+                  <li>Split AC</li>
+                </ol>
+                <p className='text-justify'>
+                  are leading experts in the design, installation, service and maintenance of
+                  air conditioning, heating, mechanical and electrical systems, suitable for
+                  all industrial, commercial and domestic applications. We are committed
+                  to provide the most efficient and cost-effective solutions available and deliver
+                  those services specifically required by the commercial and residential
+                  facilities & all type of industries.
                 </p>
                 {/* <a href="">
                   Read More
@@ -202,56 +237,80 @@ function Home() {
       {/* <!-- service section --> */}
 
       <section class="service_section layout_padding">
-        <div class="container ">
+        <div class="container">
           <div class="heading_container heading_center">
             <h2> Our Services </h2>
           </div>
           <div class="row">
             <div class="col-sm-6 col-md-4 mx-auto">
-              <div class="box ">
+              <div class="box h-100">
                 <div class="img-box">
                   <img src="images/s1.png" alt="" />
                 </div>
                 <div class="detail-box">
-                  <h5>
+                  {/* <h5>
                     AC Maintenance
-                  </h5>
-                  {/* <p>
-                    when looking at its layout. The point of using Lorem Ipsum is
-                    that it has a more-or-less normal
-                  </p> */}
+                  </h5> */}
+                  <p>
+                    We cover all types of Air Conditoners
+                  </p>
+                  <ul className='text-left font-weight-bold'>
+                    <li>Split AC Unit</li>
+                    <li>Duct Split Unit</li>
+                    <li>Package Unit</li>
+                    <li>Window Unit</li>
+                    <li>Cassette-type AC Unit</li>
+                    <li>Chiller Unit</li>
+                    <li>FCU</li>
+                    <li>CCU</li>
+                    <li>Other AC Units</li>
+                  </ul>
                 </div>
               </div>
             </div>
             <div class="col-sm-6 col-md-4 mx-auto">
-              <div class="box ">
+              <div class="box  h-100">
                 <div class="img-box">
                   <img src="images/s2.png" alt="" />
                 </div>
                 <div class="detail-box">
-                  <h5>
-                    VFD
-                  </h5>
-                  {/* <p>
-                    when looking at its layout. The point of using Lorem Ipsum is
-                    that it has a more-or-less normal
-                  </p> */}
+                  {/* <h5>
+                    Services
+                  </h5> */}
+                  <p>
+                    We handle all AC services
+                  </p>
+                  <ul className='text-left font-weight-bold'>
+                    <li>AC Inspection</li>
+                    <li>Filter Cleaning</li>
+                    <li>Area Clean</li>
+                    <li>Duct Clean</li>
+                    <li>Coil Clean</li>
+                    <li>Disinfect fogging</li>
+                  </ul>
                 </div>
               </div>
             </div>
             <div class="col-sm-6 col-md-4 mx-auto">
-              <div class="box ">
+              <div class="box h-100">
                 <div class="img-box">
                   <img src="images/s3.png" alt="" />
                 </div>
                 <div class="detail-box">
-                  <h5>
+                  {/* <h5>
                     Control Panel
-                  </h5>
-                  {/* <p>
-                    when looking at its layout. The point of using Lorem Ipsum is
-                    that it has a more-or-less normal
-                  </p> */}
+                  </h5> */}
+                  <p>
+                    Our AC Maintenance and services typically includes
+                  </p>
+                  <ul className='text-left font-weight-bold'>
+                    <li>Cleaning of air handling units and fan coils of AC</li>
+                    <li>Reparing of damaged fan belts</li>
+                    <li>Cleaning of blocked and faulty AC drain outlets</li>
+                    <li>Removing sand and dust build-up in the motor bearings</li>
+                    <li>Fixing the damaged pressure and temperature sensors</li>
+                    <li>Cleaning blocked or dirty filters and air diffusers and so on</li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -302,8 +361,8 @@ function Home() {
               <div class="map_container">
                 <div class="map">
                   <div id="googleMap" style={{width: '100%', height:'100%'}}></div> */}
-                  {/* style={{width: '100%', height:'100%'}} */}
-                {/* </div>
+      {/* style={{width: '100%', height:'100%'}} */}
+      {/* </div>
               </div>
             </div>
           </div>
@@ -324,37 +383,37 @@ function Home() {
               <div class="info_items">
                 <div class="row">
                   <div class="col-md-4">
-                    <a href="">
+                    <a href="#">
                       <div class="item ">
                         <div class="img-box ">
                           <i class="fa fa-map-marker" aria-hidden="true"></i>
                         </div>
                         <p>
-                          P.O Box: 106396, Mussafah - Abu Dhabi - U.A.E 
+                          P.O Box: 106396, Mussafah - Abu Dhabi - U.A.E
                         </p>
                       </div>
                     </a>
                   </div>
                   <div class="col-md-4">
-                  <a href="tel:+971553720602">
+                    <a href="tel:+971553720602">
                       <div class="item ">
                         <div class="img-box ">
                           <i class="fa fa-phone" aria-hidden="true"></i>
                         </div>
                         <p>
-                        +971 553720602
+                          +971 553720602
                         </p>
                       </div>
                     </a>
                   </div>
                   <div class="col-md-4">
-                  <a href="mailto:brightsand2014@gmail.com">
+                    <a href="mailto:brightsand2014@gmail.com">
                       <div class="item ">
                         <div class="img-box">
                           <i class="fa fa-envelope" aria-hidden="true"></i>
                         </div>
                         <p>
-                        brightsand2014@gmail.com
+                          brightsand2014@gmail.com
                         </p>
                       </div>
                     </a>
