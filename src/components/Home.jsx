@@ -83,7 +83,7 @@ function Home() {
           <div class="container">
             <div class="row">
               <div class="col-md-6 ">
-                <div class="detail-box">
+                <div class="detail-box text-center">
                   <h1>
                     Air Conditioner <br />
                     Repair and Maintenance
